@@ -218,7 +218,10 @@ print("SCoNormCompose(0.25, 0.5, 0.75, 'algebraic') =", SCoNormCompose(0.25, 0.5
 print("SCoNormCompose(0.25, 0.5, 0.75, 'boundary') =", SCoNormCompose(0.25, 0.5, 0.75, normType='boundary'))
 print("SCoNormCompose(0.25, 0.5, 0.75, 'drastic') =", SCoNormCompose(0.25, 0.5, 0.75, normType='drastic'))
 
-# --- Work with other methods:
+# --- Working with other methods:
+
+# Converting some strings to range of sorted unique numbers with DiapasonParser():
+
 print("Converting some strings to range of sorted unique numbers:")
 print('String "1,5" converted to:', DiapasonParser("1,5"))
 print('String "1-5" converted to:', DiapasonParser("1-5"))
